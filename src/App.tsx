@@ -44,7 +44,7 @@ function App() {
           </Grid>
 
           <Grid item xs={12} md={2}>
-            <div>
+            <div className="logo">
               <img src={logo} className="App-logo" alt="logo" />
             </div>
           </Grid>
