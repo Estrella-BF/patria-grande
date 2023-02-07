@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './/images/guitar.png';
 
 import './App.css';
 import { Grid } from '@mui/material';
 import MainComponent from './pages/Main/Main';
+import Background from './pages/Background/Background';
 
 class App extends React.Component {
 
@@ -17,13 +17,9 @@ class App extends React.Component {
           <Grid container spacing={2}>
           <MainComponent></MainComponent>
 
+          <Background></Background>
 
-
-            <Grid item xs={12} md={2}>
-              <div className="logo">
-                <img src={logo} className="App-logo" alt="logo" />
-              </div>
-            </Grid>
+     
         
             <Grid item xs={12} md={5}>
               <div className="band-side">
