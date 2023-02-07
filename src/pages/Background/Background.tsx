@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from '@mui/material';
 import logo from '../..//images/guitar.png';
 
-const Background = () =>{ 
+const Background = () => { 
 
   return (
       <Grid item xs={12} md={2}>

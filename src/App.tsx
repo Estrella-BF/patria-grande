@@ -4,6 +4,7 @@ import './App.css';
 import { Grid } from '@mui/material';
 import MainComponent from './pages/Main/Main';
 import Background from './pages/Background/Background';
+import { Information } from './pages/Information/Information';
 
 const App = () => {
 /*   const [count, setCount] = useState(0);
@@ -21,25 +22,7 @@ const App = () => {
 
             <Background></Background>
 
-    
-        
-            <Grid item xs={12} md={5}>
-              <div className="band-side">
-
-                <div className="band-side__header-name">
-                  LADO B
-                </div>
-                <div className="band-side__title">
-                  <div className="title">
-                    Patria grande
-                  </div>
-                  <div className="sub-title">
-                    Argentina
-                  </div>
-                </div>
-              </div>
-            </Grid>
-      
+            <Information></Information>
 
           </Grid>
         </div> 
