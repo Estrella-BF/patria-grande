@@ -5,21 +5,23 @@ import { Grid } from '@mui/material';
 import MainComponent from './pages/Main/Main';
 import Background from './pages/Background/Background';
 
-class App extends React.Component {
+const App = () => {
+/*   const [count, setCount] = useState(0);
 
+  const increase = () => {
+      setCount(count+1);
+  } */
 
-  
-  render() {
-    return (
-      <div className="App">
+  return (
+    <div className="App">
 
         <div className="main">
           <Grid container spacing={2}>
-          <MainComponent></MainComponent>
+            <MainComponent></MainComponent>
 
-          <Background></Background>
+            <Background></Background>
 
-     
+    
         
             <Grid item xs={12} md={5}>
               <div className="band-side">
@@ -42,8 +44,8 @@ class App extends React.Component {
           </Grid>
         </div> 
     </div>
-    );
-  }
-}
+  )
+} 
+
 
 export default App;
