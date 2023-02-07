@@ -3,7 +3,7 @@ import logo from './/images/guitar.png';
 
 import './App.css';
 import { Grid } from '@mui/material';
-import MainComponent from './pages/main/main';
+import MainComponent from './pages/Main/Main';
 
 class App extends React.Component {
 
