@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from '@mui/material';
-import logo from '../..//images/guitar.png';
+import logo from '../../images/guitar.png';
 
 const Background = () => { 
 
