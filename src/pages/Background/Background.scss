@@ -7,5 +7,12 @@
             right: -6em;
         }
 
+        @media (max-width: 900px) {
+            position: absolute;
+            top: 6em;
+            width: 40em;
+            right: -16em;
+        }
+
     }
 }
