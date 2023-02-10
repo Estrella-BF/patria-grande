@@ -17,15 +17,19 @@ audio::-webkit-media-controls-panel {
 	box-shadow: none;
 }
 
-.audioPlayer__buttons--left, .audioPlayer__buttons--right, .audioPlayer__button--play {
+.audioPlayer__buttons--left, .audioPlayer__buttons--right, .audioPlayer__button--play, .audioPlayer__button--stop {
 	display: inline-block;
+	width: 2em;
+
 	svg {
 		color: rgb(30, 33, 37);
+		cursor: pointer;
 	}
 }
 
 .audioPlayer__buttons {
-	display: inline-block;
+	display: flex;
+	margin-left: 1em;
 }
 
 .audioPlayer__disk {
