@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import './Main.css';
+import './Main.scss';
 import { Grid } from '@mui/material';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTiktok, faFacebookF, faYoutube } from '@fortawesome/free-brands-svg-icons';
@@ -22,16 +22,17 @@ const MainComponent = () => {
             </div>
 
             <div className="band-info__social-network">
-                <div>
-                <FontAwesomeIcon icon={faFacebookF} />  
-                </div>
-                <div>
-                <FontAwesomeIcon icon={faTiktok} />
-                </div>
+                <a href="https://www.facebook.com/profile.php?id=100083175592342&mibextid=ZbWKwL" target="_blank">
+                    <FontAwesomeIcon icon={faFacebookF} />  
+                </a>
+
+                <a href="https://www.tiktok.com/@patriagrandebanda" target="_blank">
+                    <FontAwesomeIcon icon={faTiktok} />
+                </a>
         
-                <div>
-                <FontAwesomeIcon icon={faYoutube} />
-                </div>
+                <a href="https://www.youtube.com/@patriagrandebanda" target="_blank">
+                    <FontAwesomeIcon icon={faYoutube} />
+                </a>
             </div>
         
             </div>

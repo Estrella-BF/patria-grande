@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import './Information.scss';
 
 export const Information = () => {
     return (
