@@ -1,28 +1,32 @@
 import { useRef, useState } from 'react';
 import './AudioPlayer.scss';
 
-import mp3 from '../../music/mp3-demo.mp3';
+import inolvidableTrack from '../../music/Inolvidable - Patria Grande.mpeg';
+import estigmaTrack from '../../music/Estigma - Patria Grande.mp3';
 import disk from '../../images/disk.png';
 import diskArm from '../../images/disk-arm.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCaretLeft, faCaretRight, faGripLinesVertical, faPlay, faStepBackward, faStepForward, faWallet } from '@fortawesome/free-solid-svg-icons';
+import { faGripLinesVertical, faPlay, faStepBackward, faStepForward, faWallet } from '@fortawesome/free-solid-svg-icons';
 
 
 
 const AudioPlayer = () => {
+    const musicRef = useRef<HTMLAudioElement>(inolvidableTrack);
+    var currentAudio = new Audio(inolvidableTrack);
 
-    const musicRef = useRef<HTMLAudioElement>(null);
+    const [audioPosition, setAudioPosition] = useState(0);
 /*     const myaudio = new Audio(mp3); */
-    const [audio, setAudio] = useState( new Audio(mp3) )
-    
-    const [showPlay, setShowPlay] = useState(true)
+    const [audio, setAudio] = useState( new Audio(inolvidableTrack) );
+    const [showPlay, setShowPlay] = useState(true);
 
 
-    function toPlayMusic() {
+ /*    function toPlayMusic() {
         setShowPlay(!showPlay);
         showPlay ? audio.play(): audio.pause();
     }
-    
+
+ */
+
     return (
         <div className="audioPlayer">
             <div className="audioPlayer__disk">
@@ -31,27 +35,30 @@ const AudioPlayer = () => {
                 </div> 
                 <div className="audioPlayer__disk--img">
                     <img src={disk} alt="" />
-
-                {/*      <audio id="myAudio" controls autoPlay>
-                <source src={mp3} type="audio/mp3" ></source>
-                Your browser does not support the audio element.
-                </audio> */}
-
                 </div>
             </div>
 
             <div className="audioPlayer__buttons">
 
-                <div className="audioPlayer__buttons--left">
-                    <FontAwesomeIcon icon={faStepForward} /> 
+                <div className="audioPlayer--title">
+                    "Estigma - Patria Grande"
                 </div>
+                <audio src={estigmaTrack} controls ref={musicRef} autoPlay>
+                    You're browser is Outdated . Please Update The Browser
+                </audio>
 
-                {
-            /*     showPlay && 
+
+            {/*     <div className="audioPlayer__buttons--right" onClick={toChangeMusic}>
+                    <FontAwesomeIcon icon={faStepBackward} />
+                </div> */}
+
+         
+       {/*          showPlay && 
                 (<div className="audioPlayer__button--play"  onClick={toPlayMusic}>
                     <FontAwesomeIcon icon={faPlay} />
-                </div>) */
-                showPlay ? 
+                </div>) */}
+
+{/*                 {showPlay ? 
                 (<div className="audioPlayer__button--play" onClick={toPlayMusic}>
                     <FontAwesomeIcon icon={faPlay} />
                 </div>
@@ -62,17 +69,14 @@ const AudioPlayer = () => {
                 </div>
                 
                 )
-                }
-    
-                <div className="audioPlayer__buttons--right">
-                    <FontAwesomeIcon icon={faStepBackward} />
-                </div>
+                } */}
+
+              {/*   <div className="audioPlayer__buttons--left" onClick={toChangeMusic}>
+                    <FontAwesomeIcon icon={faStepForward} /> 
+                </div> */}
 
             </div>
 
-            <ul>
-                {/* <audio ref={musicRef} src={mp3} controls ></audio>  */}
-            </ul>
 
         </div>
     )

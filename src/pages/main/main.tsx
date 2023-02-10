@@ -16,9 +16,6 @@ const MainComponent = () => {
                 LADO A
             </div>
             <div className="band-info__audio">
-                <div className="band-info__audio--title">
-                "Asesinos"
-                </div>
   
                 <AudioPlayer></AudioPlayer>
 
