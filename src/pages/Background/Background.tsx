@@ -1,4 +1,5 @@
 import React from "react";
+import './Background.scss';
 import { Grid } from '@mui/material';
 import logo from '../../images/guitar.png';
 

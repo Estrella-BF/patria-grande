@@ -24,6 +24,7 @@ audio::-webkit-media-controls-panel {
 
 .audioPlayer__buttons {
 	margin-left: 1em;
+	z-index: 1;
 }
 
 .audioPlayer__disk {

@@ -1,0 +1,11 @@
+.logo {
+    img {
+        @media (max-width: 900px) { 
+            position: absolute;
+            top: 0;
+            width: 40em;
+            right: -6em;
+        }
+
+    }
+}

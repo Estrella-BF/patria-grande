@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './App.css';
+import './App.scss';
 import { Grid } from '@mui/material';
 import MainComponent from './pages/Main/Main';
 import Background from './pages/Background/Background';

@@ -2,3 +2,9 @@
     font-size: 2rem;
     font-weight: 200;
 }
+
+.band-side__header-name {
+    @media (max-width: 900px) { 
+        display: none;
+    }
+}
