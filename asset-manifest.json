@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/patria-grande/static/css/main.9906f7b7.css",
+    "main.js": "/patria-grande/static/js/main.4e9fe94d.js",
+    "static/js/787.6ad3666f.chunk.js": "/patria-grande/static/js/787.6ad3666f.chunk.js",
+    "static/media/Inolvidable - Patria Grande.mpeg": "/patria-grande/static/media/Inolvidable - Patria Grande.db7c158b2831f52f6efb.mpeg",
+    "static/media/Estigma - Patria Grande.mp3": "/patria-grande/static/media/Estigma - Patria Grande.c1a97ee88d30eb671150.mp3",
+    "static/media/disk.png": "/patria-grande/static/media/disk.2bf3bfeb17e23363b36c.png",
+    "static/media/guitar.png": "/patria-grande/static/media/guitar.e352d6d9177d3044a2cd.png",
+    "static/media/disk-arm.png": "/patria-grande/static/media/disk-arm.86a823fbadcd604149c6.png",
+    "index.html": "/patria-grande/index.html",
+    "main.9906f7b7.css.map": "/patria-grande/static/css/main.9906f7b7.css.map",
+    "main.4e9fe94d.js.map": "/patria-grande/static/js/main.4e9fe94d.js.map",
+    "787.6ad3666f.chunk.js.map": "/patria-grande/static/js/787.6ad3666f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9906f7b7.css",
+    "static/js/main.4e9fe94d.js"
+  ]
+}
