@@ -34,13 +34,13 @@
   @media (max-width: 900px) { 
     height: 100vh;
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(2,0,36,1) 50%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 60%, rgba(2,0,36,1) 50%);
   }
 }
 
 @media (max-width: 600px) {
   .main {
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(2,0,36,1) 50%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 60%, rgba(2,0,36,1) 50%);
   }
 }

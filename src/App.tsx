@@ -23,7 +23,6 @@ const App = () => {
             <Background></Background>
 
             <Information></Information>
-
           </Grid>
         </div> 
     </div>

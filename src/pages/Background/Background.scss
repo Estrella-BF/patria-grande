@@ -1,11 +1,23 @@
 .logo {
-    img {
+    .logo-desktop {
         @media (max-width: 900px) { 
+            display: none;
+        }
+    }
+
+    .half-logo {
+        display: none;
+
+        @media (max-width: 900px)  {
+            display: block;
             position: absolute;
             top: 0;
             width: 40em;
-            right: -16em;
+            right: 0;
         }
 
+        @media (max-width: 900px) {
+            width: 22em;
+        }
     }
 }
