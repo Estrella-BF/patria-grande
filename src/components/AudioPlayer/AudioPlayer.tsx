@@ -19,7 +19,6 @@ const AudioPlayer = () => {
     const [audio, setAudio] = useState( new Audio(inolvidableTrack) );
     const [showPlay, setShowPlay] = useState(true);
 
-
  /*    function toPlayMusic() {
         setShowPlay(!showPlay);
         showPlay ? audio.play(): audio.pause();

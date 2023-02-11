@@ -5,6 +5,7 @@ import { Grid } from '@mui/material';
 import MainComponent from './pages/Main/Main';
 import Background from './pages/Background/Background';
 import { Information } from './pages/Information/Information';
+import { Footer } from './components/Footer/Footer';
 
 const App = () => {
 /*   const [count, setCount] = useState(0);
@@ -24,6 +25,7 @@ const App = () => {
 
             <Information></Information>
 
+            <Footer></Footer>
           </Grid>
         </div> 
     </div>
